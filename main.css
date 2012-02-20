@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+p {
+    line-height: 20px;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 968px;
+}
+#header {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 85px;
+}
+#header p{
+    color: #999999;
+}
+#logo {
+    float: right;
+    margin-top: 15px
+}
+#navigation {
+    float: left;
+    margin-top: 5px;
+}
+#columnl {
+    float: left;
+    margin-left: 0px;
+}
+#columnr {
+    margin-left: 160px;
+}
+#navigation a {
+    background-image: url("http://cdn1.chrispederick.net/images/4.4/navigation.png");
+    background-repeat: no-repeat;
+    display: block;
+    font-family: "futura-pt-1","futura-pt-2","helvetica neue",helvetica,arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+.content{
+    font-size: 12px;
+}
+#footer {
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+    clear: both;
+}
+#footer p{
+    float: left;
+}
+.section {
+    float: left;
+    margin-right: 30px;
+    width: 465px;
+    padding-top: 10px;
+}
+.read-more{
+    float: right;
+}
+.section p{
+    padding-left: 15px;
+}
+.right {
+    margin-right: 0px;
+}
+.last {
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 22px;
+}
+.skills li {
+    float: left;
+    margin: 0 10px 20px 0;
+    width: 140px;
+}
+.skills p {
+    margin-left: 40px;
+    line-height: 40px;
+}
+.skills span{
+    float: left;
+}
+.skills span,
+.skills span a {
+    display: block;
+    height: 48px;
+    width: 48px;
+    text-decoration: none;
+}
+
+#python{
+    background-image: url("python.png");
+    background-repeat: no-repeat
+}
+#php{
+    background-image: url("php.png");
+    background-repeat: no-repeat
+}
+#django{
+    background-image: url("django.png");
+    background-repeat: no-repeat
+}
+#drupal{
+    background-image: url("drupal.png");
+    background-repeat: no-repeat
+}
+#hg{
+    background-image: url("hg.png");
+    background-repeat: no-repeat
+}
+.logos {
+    text-align: justify;
+}
+.logos img{
+    width: 145px;
+    height: 75px;
+}
+#contact{
+    padding-top: 15px;
+}
+#social {
+    float: right;
+    margin-right: 10px;
+}
