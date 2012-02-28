@@ -49,16 +49,20 @@ a {
     color: #000000;
     text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 p {
     line-height: 20px;
 }
 #wrapper {
     margin: 0 auto;
     width: 968px;
+    margin-top: 40px;
 }
 #header {
     border-bottom: 1px solid #000000;
-    padding-bottom: 85px;
+    padding-bottom: 100px;
 }
 #header p{
     color: #999999;
@@ -69,7 +73,7 @@ p {
 }
 #navigation {
     float: left;
-    margin-top: 5px;
+    margin-top: 17px;
 }
 #columnl {
     float: left;
@@ -78,8 +82,9 @@ p {
 #columnr {
     margin-left: 160px;
 }
-#navigation a {
-    background-image: url("http://cdn1.chrispederick.net/images/4.4/navigation.png");
+#navigation a,
+#contact-details a,
+#contact-details span {
     background-repeat: no-repeat;
     display: block;
     font-family: "futura-pt-1","futura-pt-2","helvetica neue",helvetica,arial,sans-serif;
@@ -89,6 +94,13 @@ p {
     padding-left: 25px;
     text-transform: uppercase;
 }
+a#nav-projects { background-image: url("folder_fill_16x16.png"); }
+#nav-skills { background-image: url("wrench_16x16.png"); }
+#nav-home { background-image: url("home_16x16.png"); }
+#nav-about { background-image: url("user_12x16.png"); }
+#nav-contact { background-image: url("at_16x16.png"); }
+#nav-help { background-image: url("key_fill_16x16.png"); }
+
 .content{
     font-size: 12px;
 }
@@ -108,6 +120,7 @@ p {
 }
 .read-more{
     float: right;
+    padding-right: 30px;
 }
 .section p{
     padding-left: 15px;
@@ -163,6 +176,8 @@ h3{
 }
 .logos {
     text-align: justify;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 .logos img{
     width: 145px;
@@ -175,3 +190,17 @@ h3{
     float: right;
     margin-right: 10px;
 }
+
+/* Contact Section */
+#contact-details {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+#contact-details a,
+#contact-details span
+{
+    text-transform: none;
+}
+a#email { background-image: url("mail_16x12.png"); }
+span#mobile { background-image: url("iphone_9x12.png"); }
+a#contact-frm { background-image: url("pen_alt_fill_12x12.png"); }
