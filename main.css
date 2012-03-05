@@ -16,7 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: helvetica,arial,sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -44,13 +45,15 @@ table {
 h1 {
     font-size: 34px;
     line-height: 40px;
+    padding-bottom: 10px;
 }
 a {
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
 	text-decoration: underline;
+	color: #999999;
 }
 p {
     line-height: 20px;
@@ -66,10 +69,14 @@ p {
 }
 #header p{
     color: #999999;
+    font-size: 22px;
 }
 #logo {
     float: right;
     margin-top: 15px
+}
+#navigation a{
+    text-decoration: none;
 }
 #navigation {
     float: left;
@@ -102,7 +109,7 @@ a#nav-projects { background-image: url("folder_fill_16x16.png"); }
 #nav-help { background-image: url("key_fill_16x16.png"); }
 
 .content{
-    font-size: 12px;
+    font-size: 15px;
 }
 #footer {
     border-top: 1px solid #000000;
@@ -130,9 +137,11 @@ a#nav-projects { background-image: url("folder_fill_16x16.png"); }
 }
 .last {
     padding-bottom: 20px;
+    
 }
 h3{
     font-size: 22px;
+    padding-bottom: 15px;
 }
 .skills li {
     float: left;
